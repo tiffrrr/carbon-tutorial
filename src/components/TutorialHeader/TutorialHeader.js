@@ -37,6 +37,9 @@ const TutorialHeader = () => (
           <HeaderMenuItem element={Link} to="/repos">
             Repositories
           </HeaderMenuItem>
+          <HeaderMenuItem element={Link} to="/component">
+            Component
+          </HeaderMenuItem>
         </HeaderNavigation>
         <SideNav
           aria-label="Side navigation"
@@ -46,6 +49,9 @@ const TutorialHeader = () => (
             <HeaderSideNavItems>
               <HeaderMenuItem element={Link} to="/repos">
                 Repositories
+              </HeaderMenuItem>
+              <HeaderMenuItem element={Link} to="/component">
+                Component
               </HeaderMenuItem>
             </HeaderSideNavItems>
           </SideNavItems>
